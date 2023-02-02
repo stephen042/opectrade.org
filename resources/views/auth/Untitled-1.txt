@@ -1,0 +1,8 @@
+    "perfectmoney_address"=>$data->perfectmoney_address,
+    "bitcoin_address"=> $data->bitcoin_address,
+    "usdt_address"=> $data->usdt_address,
+    "ethereum_address"=> $data->ethereum_address,
+    "litecoin_address"=> $data->litecoin_address,
+    "binancecoin_address"=> $data->binancecoin_address,
+    "bitcoincash_address"=> $data->bitcoincash_address,
+    "dodgecoin_address"=> $data->dodgecoin_address

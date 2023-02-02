@@ -1,0 +1,75 @@
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <input type="text" name="perfectmoney_address"
+                                                class="form-control rounded-left" placeholder="Perfect Money Address"
+                                                value="">
+                                            @error('perfectmoney_address')
+                                                <p class="text-danger">{{ $message }} </p>
+                                            @enderror
+                                        </div>
+
+
+
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <input type="text" name="bitcoin_address"
+                                                class="form-control rounded-left" placeholder="Bitcoin Address"
+                                                value="">
+                                            @error('bitcoin_address')
+                                                <p class="text-danger">{{ $message }} </p>
+                                            @enderror
+                                        </div>
+
+                                     <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <input type="text" name="usdt_address"
+                                                class="form-control rounded-left" placeholder="USDT Address"
+                                                value="">
+                                            @error('usdt_address')
+                                                <p class="text-danger">{{ $message }} </p>
+                                            @enderror
+                                        </div>
+
+
+                                         <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <input type="text" name="ethereum_address"
+                                                class="form-control rounded-left" placeholder="Ethereum Address"
+                                                value="">
+                                            @error('ethereum_address')
+                                                <p class="text-danger">{{ $message }} </p>
+                                            @enderror
+                                        </div>
+
+                                         <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <input type="text" name="litecoin_address"
+                                                class="form-control rounded-left" placeholder="Litecoin Address"
+                                                value="">
+                                            @error('litecoin_address')
+                                                <p class="text-danger">{{ $message }} </p>
+                                            @enderror
+                                        </div>
+
+                                          <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <input type="text" name="binancecoin_address"
+                                                class="form-control rounded-left" placeholder="Binance Coin Address"
+                                                value="">
+                                            @error('binancecoin_address')
+                                                <p class="text-danger">{{ $message }} </p>
+                                            @enderror
+                                        </div>
+
+
+                                          <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <input type="text" name="bitcoincash_address"
+                                                class="form-control rounded-left" placeholder="Bitcoin Cash Address"
+                                                value="">
+                                            @error('bitcoincash_address')
+                                                <p class="text-danger">{{ $message }} </p>
+                                            @enderror
+                                        </div>
+
+                                          <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <input type="text" name="dodgecoin_address"
+                                                class="form-control rounded-left" placeholder="Dodge Coin Address"
+                                                value="">
+                                            @error('dodgecoin_address')
+                                                <p class="text-danger">{{ $message }} </p>
+                                            @enderror
+                                        </div>

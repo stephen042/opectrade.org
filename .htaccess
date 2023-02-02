@@ -1,0 +1,7 @@
+  RewriteCond %{HTTP_HOST} ^hacplaninvest.com/$ [NC,OR]
+ # RewriteCond %{HTTP_HOST} ^www.hacplaninvest.com$
+    #RewriteCond %{HTTP_HOST} ^https://hacplaninvest.com$
+#   RewriteCond %{REQUEST_URI} !your-laravel-folder/public/
+#   RewriteRule (.*) /your-laravel-folder/public/$1 [L]
+  RewriteCond %{REQUEST_URI} !public/
+  RewriteRule (.*) /public/$1 [L]
